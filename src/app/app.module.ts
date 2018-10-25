@@ -8,13 +8,15 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { from } from 'rxjs';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { MessageComponent } from './message/message.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    DashboardComponent
+    DashboardComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule,
